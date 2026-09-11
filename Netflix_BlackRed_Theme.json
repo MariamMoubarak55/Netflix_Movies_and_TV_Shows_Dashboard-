@@ -1,0 +1,37 @@
+{
+  "name": "Netflix Black & Red",
+  "dataColors": ["#E50914", "#8B0000", "#B00710", "#61000A", "#FF5257", "#A31621", "#5C0A0F", "#C81E25"],
+  "good": "#E50914",
+  "neutral": "#B3B3B3",
+  "bad": "#8B0000",
+  "maximum": "#FF4D55",
+  "center": "#B00710",
+  "minimum": "#5C0A0F",
+  "nullColor": "#3A3A3A",
+  "foreground": "#FFFFFF",
+  "background": "#141414",
+  "tableAccent": "#E50914",
+  "textClasses": {
+    "title":   { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#FFFFFF" },
+    "header":  { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#FFFFFF" },
+    "label":   { "fontFace": "Segoe UI", "fontSize": 10, "color": "#B3B3B3" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 34, "color": "#FFFFFF" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title":        [{ "show": true, "fontColor": { "solid": { "color": "#FFFFFF" } }, "background": { "solid": { "color": "#151515" } }, "alignment": "left", "fontSize": 13 }],
+        "background":   [{ "show": true, "color": { "solid": { "color": "#151515" } }, "transparency": 0 }],
+        "border":       [{ "show": true, "color": { "solid": { "color": "#2A2A2A" } }, "radius": 10 }],
+        "dropShadow":   [{ "show": false }],
+        "visualHeader": [{ "show": true, "background": { "solid": { "color": "#151515" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace":   [{ "color": { "solid": { "color": "#0B0B0B" } } }],
+        "background": [{ "color": { "solid": { "color": "#0B0B0B" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
